@@ -1,4 +1,4 @@
-// Copyright 2020 <LinkIvan333>
+// Copyright 2020 <>
 
 #ifndef CRAWLER_ROOT_CERTIFICATE_H
 #define CRAWLER_ROOT_CERTIFICATE_H
