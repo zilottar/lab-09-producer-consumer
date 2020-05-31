@@ -43,7 +43,7 @@ add_executable(tests
 )
 
 add_executable(main
-        ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
         )
 
 target_include_directories(template 
