@@ -262,11 +262,7 @@ public:
     }
 
     static std::string getHost(std::string &url) { // поиск хоста
-        /*
-         пример:
-         входные    url  =   https://support.microsoft.com/ru-ru/help/972034/how-to-reset-the-hosts-file-back-to-the-default
-         получилось host =   support.microsoft.com
-         */
+        
         std::string host;
         int64_t skipHTTP = 0;
         int64_t skipHTTPS = 0;
