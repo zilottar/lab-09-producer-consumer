@@ -190,7 +190,7 @@ public:
 
     static std::string getPage(std::string url) {
         std::string page;
-        if (getPort(url) == "80") { // http
+        if (getPort(url) == "80") {
             page = getHttp(url);
         } else { page = getHttps(url); }  
         return page;    
